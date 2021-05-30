@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- workaround for webtorrent not being an es module -->
+		<script src="https://cdn.jsdelivr.net/npm/webtorrent@1.0.0/webtorrent.min.js" integrity="sha256-yHDDjg5FfdSlH0WQys4d1fVSzn+x6cgEYUUzgOn/hU4=" crossorigin="anonymous"></script>
+
+		%svelte.head%
+	</head>
+	<body>
+		<div id="svelte">%svelte.body%</div>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "wa-sqlite-webtorrent-demo",
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^1.0.0-next.12",
+    "@sveltejs/kit": "next",
+    "@types/webtorrent": "^0.109.0",
+    "svelte": "^3.34.0",
+    "svelte-check": "^2.0.0",
+    "svelte-preprocess": "^4.0.0",
+    "tslib": "^2.0.0",
+    "typescript": "^4.0.0"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.24.0",
+    "wa-sqlite": "https://github.com/ydylla/wa-sqlite.git#modifications-for-base",
+    "wa-sqlite-webtorrent": "https://github.com/ydylla/wa-sqlite-webtorrent.git"
+  }
+}
